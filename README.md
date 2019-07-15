@@ -1,6 +1,6 @@
 # Car detection - YOLO
 
-許多想法都在兩篇YOLO論文中有所描述： [Redmon et al., 2016](https://arxiv.org/abs/1506.02640) 和 [Redmon and Farhadi, 2016](https://arxiv.org/abs /1612.08242)。
+許多想法都在兩篇YOLO論文中有所描述： [Redmon et al., 2016](https://arxiv.org/abs/1506.02640) 和 [Redmon and Farhadi, 2016](https://arxiv.org/abs/1612.08242) 。
 
 - **Problem Statement  :** 
 以自駕車做為模擬情境，我們需要一個系統透過鏡頭來去偵測前方的車輛，數據來自 [drive.ai](https://www.drive.ai/)
