@@ -22,6 +22,7 @@ YOLO ("you only look once") 是一個相當受歡迎的演算法，因為它可�
 **input**是批次處理的影像，shape為 **(m, 608, 608, 3)**
 **output**是包含所辨認的物件的邊界框(bounding boxes)列表，如上所述，每個邊界框(bounding boxes)包含6個數字 **(pc,bx,by,bh,bw,c)** ；如果你擴展於80維的向量中，則每個邊界框由85個數字表示。</br>
 
-這裡使用5個anchor boxes，所以你可以把YOLO的架構看成：**IMAGE (m, 608, 608, 3) -> DEEP CNN -> ENCODING (m, 19, 19, 5, 85)**
+這裡使用5個anchor boxes，所以你可以把YOLO的架構看成：</br>
+**IMAGE (m, 608, 608, 3) -> DEEP CNN -> ENCODING (m, 19, 19, 5, 85)**
 
 ![architecture](https://github.com/s90210jacklen/YOLO-object-detection/blob/master/nb_images/architecture.png)
